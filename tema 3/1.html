@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mihajlo Idvorski Pupin</title>
+ 
+    <meta charset="UTF-8">
+    <meta name="description" content="Second Wbsite">
+    <meta name="keywords" content="Biography">
+    <meta name="author" content="Boeru Alexandru">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+
+<style>
+.header {
+  border: 2px outset grey;
+  background-color: green;
+  text-align: center;
+  font-family:'Courier New';
+  font-size:25px;
+}
+</style>
+<style>
+.text {
+  border: 2px outset black;
+  background-color: #00695C;
+  font-family:'Courier New';
+  font-size:25px;
+}
+</style>
+
+</head>
+<body style="background-color:olive;">
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="1.html">Main Page</a>
+  <a href="2.html">Early life and education</a>
+  <a href="3.html">Literary work</a>
+  <a href="4.html">Pupin Coils</a>
+</div>
+<div class="menu">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Links</span>
+</div>
+<div class="header">
+  <h1>Mihajlo Idvorski Pupin</h1>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   <div class="text">
+<img src="images/pupin.jpg" alt="pupin" style="float:left" >
+<p>Mihajlo Idvorski Pupin, Ph.D., LL.D. (Serbian Cyrillic: Михајло Идворски Пупин; 9 October 1858 – 12 March 1935), also known as Michael I. Pupin, was a Serbian American physicist and physical chemist. </p>
+
+<p>Pupin is best known for his numerous patents, including a means of greatly extending the range of long-distance telephone communication by placing loading coils (of wire) at predetermined intervals along the transmitting wire (known as "pupinization"). </p>
+
+<p>Pupin was a founding member of National Advisory Committee for Aeronautics (NACA) on March 3, 1915, which later became NASA.</p>
+</div>
+</body>
+</html> 

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mihajlo Idvorski Pupin</title>
+ 
+    <meta charset="UTF-8">
+    <meta name="description" content="Second Wbsite">
+    <meta name="keywords" content="Biography">
+    <meta name="author" content="Boeru Alexandru">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+
+<style>
+.header {
+  border: 2px outset grey;
+  background-color: green;
+  text-align: center;
+  font-family:'Courier New';
+  font-size:25px;
+}
+</style>
+<style>
+.text {
+  border: 2px outset black;
+  background-color: #00695C;
+  font-family:'Courier New';
+  font-size:32px;
+}
+</style>
+<style>
+.semititle {
+  border: 2px outset red;
+  background-color: #673AB7;
+  font-family:'Courier New';
+  font-size:25px;
+}
+</style>
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+</head>
+<body style="background-color:olive;">
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="1.html">Main Page</a>
+  <a href="2.html">Early life and education</a>
+  <a href="3.html">Literary work</a>
+  <a href="4.html">Pupin Coils</a>
+</div>
+<div class="menu">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Links</span>
+</div>
+<div class="header">
+  <h1>Pupin coils</h1>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+   <div class="text">
+<img src="images/ppp.jpg" alt="ppp" style="width:15%; float:left">
+<p>
+Pupin's 1899 patent for loading coils, archaically called "Pupin coils", followed closely on the pioneering work of the English physicist and mathematician Oliver Heaviside, which predates Pupin's patent by some seven years. The importance of the patent was made clear when the American rights to it were acquired by American Telephone & Telegraph (AT&T), making him wealthy. Although AT&T bought Pupin's patent, they made little use of it, as they already had their own development in hand led by George Campbell and had up to this point been challenging Pupin with Campbell's own patent. AT&T were afraid they would lose control of an invention which was immensely valuable due to its ability to greatly extend the range of long distance telephones and especially submarine ones.</p>
+</div>
+
+
+</body>
+</html> 
